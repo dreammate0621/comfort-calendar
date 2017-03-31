@@ -1,0 +1,195 @@
+@font-face {
+  font-family: Nimbus;
+  src: url('../font/Nimbus-Sans-D-OT-Bold.ttf');
+  src: url('../font/Nimbus-Sans-D-OT-Bold.ttf') format('truetype');
+  font-stretch: ultra-condensed;
+}
+
+header {
+	padding: 10px 20px;
+}
+
+header img {
+	width: 300px;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.main-wrapper {
+	display: block;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.hidden {
+	display: none;
+}
+
+#pdf_form {
+	padding: 10px;
+	border: 2px solid #cecece;
+	border-radius: 10px;
+  box-shadow: 2px 2px 1px -1px #cec;
+}
+
+.form-field {
+	margin-bottom: 10px;
+}
+
+.form-field label.field-title {
+	font-size: 24px;
+	text-align: right;
+	display: block;
+	margin: 0;
+}
+
+.input-group.date {
+  display: inline-block;
+  font-size: 0;
+}
+
+.input-group.date > input {
+    vertical-align: middle;
+    margin: 0;
+    font-size: 16px;
+    height: 30px;
+}
+
+.input-group.date .input-group-addon {
+	display: inline-block;
+	padding-left: 8px;
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	cursor: pointer;
+}
+
+.preview-layout {
+	padding: 20px;
+  background-color: #ffffff;
+  border: solid 5vmin #eee;
+  border-bottom-color: #fff;
+  border-left-color: #eee;
+  border-radius: 2px;
+  border-right-color: #eee;
+  border-top-color: #ddd;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25) inset, 0 5px 10px 5px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+}
+
+.preview-layout:before {
+  border-radius: 2px;
+  bottom: -2vmin;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25) inset;
+  content: "";
+  left: -2vmin;
+  position: absolute;
+  right: -2vmin;
+  top: -2vmin;
+}
+
+.preview-layout:after {
+  border-radius: 2px;
+  bottom: -2.5vmin;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+  content: "";
+  left: -2.5vmin;
+  position: absolute;
+  right: -2.5vmin;
+  top: -2.5vmin;
+}
+
+.preview-pdf-img-container {
+	border: 20px solid #a1c2e6;
+}
+
+.preview-pdf-img {
+	width: 100%;
+	min-height: 300px;
+	object-fit: cover;
+}
+
+.preview-pdf-title h2 {
+	font-size: 60px;
+	font-weight: bold;
+	color: #007ec5;
+	font-family: Nimbus;
+}
+
+.preview-pdf-title h2 .title-year {
+	color: #df2027;
+}
+
+.preview-pdf-footer {
+	font-size: 0;
+}
+
+.preview-pdf-footer {
+	display: block;
+	font-size: 0;
+}
+
+.preview-pdf-footer .left-section {
+	display: inline-block;
+	width: 70%;
+}
+
+.preview-pdf-footer .left-section .footer-img {
+	width: 75px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.preview-pdf-footer .left-section .footer-content {
+	display: inline-block;
+	vertical-align: bottom;
+  width: calc(100% - 75px);
+  text-align: left;
+  padding-left: 10px;
+}
+
+.preview-pdf-footer .left-section .footer-content .content-top {
+	font-size: 24px;
+	font-weight: bold;
+	color: #df2027;
+}
+
+.preview-pdf-footer .left-section .footer-content .content-bottom {
+	font-size: 24px;
+	font-weight: bold;
+	color: #007ec5;
+}
+
+.preview-pdf-footer .right-section {
+	display: inline-block;
+	width: 30%;
+}
+
+.preview-pdf-calendar {
+	font-size: 0;
+}
+
+.preview-pdf-calendar .calendar-item {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 25%;
+	width: 175px;
+}
+
+.calendar-item span {
+	font-size: 10px;
+	display: inline-block;
+	text-align: center;
+}
+
+.calendar-item .calendar-day-head {
+	width: calc(100% / 7);
+}
+
+.calendar-item .calendar-day,  .calendar-item .calendar-day-np {
+	display: inline-block;
+	width: calc(100% / 7);
+}
